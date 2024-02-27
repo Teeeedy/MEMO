@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8d99ae;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+main {
+  width: 700px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-box {
+  display: flex;
+}
+
+.title {
+  color: #edf2f4;
+  font-weight: 700;
+  font-size: 150px;
+  margin-bottom: 125px;
+  text-shadow: 5px 1px 0px #edf2f47e;
+  padding: 60px;
+  border: dashed 4px #bbccd3;
+}
+
+.menu-box {
+  display: flex;
+  font-size: 50px;
+  flex-direction: column;
+  justify-content: spa;
+  align-items: center;
+}
+
+.menu-items {
+  margin: 5px;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #2b2d42;
+  font-weight: 700;
+  margin: 0 -0.25rem;
+  padding: 0 10px;
+  transition: color 0.2s ease-in-out, box-shadow 0.7s ease-in-out;
+  letter-spacing: 5px;
+}
+
+.menu-items a:hover {
+  color: #edf2f4;
+  box-shadow: inset 500px 0 0 0 #2b2d42;
+}
